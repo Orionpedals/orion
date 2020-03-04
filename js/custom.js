@@ -5,9 +5,10 @@ $(function(){
         animationOptions: {
             duration: 750,
             easing: 'linear',
-            queue: false
+            queue: false,
+            resizable: false
         }
-        resizable: false
+        
         masonry: { columnWidth: $container.width() / 5 }
     });
 
