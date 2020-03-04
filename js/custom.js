@@ -7,6 +7,8 @@ $(function(){
             easing: 'linear',
             queue: false
         }
+        resizable: false, // disable normal resizing
+        masonry: { columnWidth: $container.width() / 5 }
     });
 
     $('.portfolioFilter a').click(function(){
@@ -31,6 +33,12 @@ $(function(){
       console.log("Click event works!");
 
     });
+    
+    $(window).smartresize(function(){
+  $container.isotope({
+    // update columnWidth to a percentage of container width
+    masonry: { columnWidth: $container.width() / 5 }
+  });
 
     
 });
