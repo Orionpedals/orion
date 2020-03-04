@@ -7,7 +7,7 @@ $(function(){
             easing: 'linear',
             queue: false
         }
-        resizable: false
+        resizable: false,
         masonry: { columnWidth: $container.width() / 5 }
     });
 
