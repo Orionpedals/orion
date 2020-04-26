@@ -519,10 +519,10 @@ button {
 .jumbotron-cover-image {
         position: relative;
 
-        background: #000 url("../img/fuzzstrat.JPG") center center;
+        background: #000 src("../img/fuzzstrat.jpg") center center;
         color: orange!important;
-        width: 20%;
-        height: 20%;
+        width: 100%;
+        height: 100%;
         background-size: cover;
         color: #fff;
 }
