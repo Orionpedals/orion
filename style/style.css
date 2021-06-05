@@ -517,7 +517,7 @@ button {
 
 
 .jumbotron-cover-image {
-        background-image: url(/img/workbench.jpg);
+        background-image: url(./img/workbench.jpg);
         background-size: cover;
         height: 100%;
 }
