@@ -6,8 +6,12 @@ a{
   color: #111
 }
 
+.addpadding{
+  padding-top: 120px;
+}
+
 .photo{
-  padding-top: 50px;
+  
 
   position: absolute;
   top: 50%;
