@@ -417,18 +417,18 @@ h4 {
 
 
 a {
-  color: blue;
+  color: lightskyblue;
   font: bold 1.4em/1.4 'Fjalla One', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-transition: .2s;
 }
 a:hover {
-  color: hotPink;
+  color: white;
 }
 @media (-webkit-min-device-pixel-ratio:0) {
   a {
-    background-color: white;
+    background-color: lightskyblue;
     background-image: -webkit-linear-gradient(left, hotPink 0%, orange 50%, transparent 50%);
     background-position: 100% 0;
     background-size: 200% 200%;
@@ -438,7 +438,7 @@ a:hover {
   }
   a:hover {
     background-position: 0 0;
-    color: transparent;
+    color: orange;
     transition: .4s 0;
   }
 }
