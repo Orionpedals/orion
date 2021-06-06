@@ -518,7 +518,7 @@ button {
 
 .jumbotron-cover-image {
  
-        background-image: url(‘img/workbench2.jpg’);
+        background-image: url('<%= image_path('img/workbenchnew.jpg') %>');
         background-size: cover;
         background-repeat: no-repeat;
   
