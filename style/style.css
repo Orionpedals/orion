@@ -74,6 +74,7 @@ img {
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   transition-duration: 0.8s;
+  padding-bottom: 20px;
 }
 
 .isotope {
