@@ -1,6 +1,7 @@
 $(function(){
     var $container = $('.portfolioContainer');
     $container.isotope({
+        itemSelector: '.grid-item',
         filter: '*',
         animationOptions: {
             duration: 750,
