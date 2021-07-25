@@ -1,59 +1,163 @@
 
-
+@font-face {
+  font-family: customFont;
+  src: url("Potra.ttf");
+}
 
 
 
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #ff3030;
-    background-color: cyan!important;
-
+    color: white;
+    background-image: linear-gradient(62deg, #000000 30%, #E0C3FC 90%);
   }
   h2 {
-    font-size: 24px;
+    font: 1000 44px  customFont;
+    
     text-transform: uppercase;
-    color: #ff3030;
+    color: aliceblue;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
+
+  h3 {
+    font: 1000 44px customFont;
+    font-size: 20px;
+    line-height: 1.375em;
+    color: aliceblue;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #ff3030;
+    color: lightgray;
     font-weight: 400;
     margin-bottom: 30px;
-  }  
+  }
+
+
+  img{
+    width: 35%;
+  }
+
+  p {
+
+  }
+
+  small{
+    color: skyblue;
+    font: 1000 44px customFont;
+    font-size: 34px;
+  }
+
+  .btn{
+    background: rgba(46,49,49, 0.8)!important;
+  }
+
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
+    color: orange !important;
+    background-color: orange !important;
+    border-color: red !important; /*set the color you want here*/
+}
+
+
+#navbar-brand{
+  size: 50%;
+}
+  #myNavbar{
+    background: rgba(46,49,49, 0.4);
+  }
+  
+  #blog{
+    
+    text: center;
+  }
+  
+  #products{
+    background: rgba(0,0,0, 0.4);
+  }
+
+  #about{
+    
+    background-image: linear-gradient(62deg, #000000 30%, #E0C3FC 90%);
+  }
+
+  #contact{
+    
+    background-image: linear-gradient(62deg, #000000 30%, #E0C3FC 90%);
+  }
+
+  .text-muted {
+color: #777;
+}
+
+  .card {
+    font: 1000 44px  customFont;
+  background:rgba(0, 0, 0, 0.4);
+
+  color: skyblue;
+  border-radius: 2px;
+  display: block;
+  
+  margin: 1rem;
+  position: relative;
+  padding: 25px;
+}
+
+
+
   .jumbotron {
-    background-color: cyan!important;
-    color: #f4511e;
+    /*
+    background-image: linear-gradient(62deg, #000000 30%, #E0C3FC 90%);
+    color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
+    */
+    background-color: black;
+    color: lightskyblue;
+    padding: 200px 25px;
+    font-family: Montserrat, sans-serif;
+
+    background-image: url("img/workbenchnew.jpg");
+    height: 800px; /* You must set a specified height */
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
   }
   .container-fluid {
     padding: 60px 50px;
   }
   .bg-grey {
-    background-color: #f6f6f6;
+    background-image: linear-gradient(62deg, #000000 30%, #E0C3FC 90%);
   }
   .logo-small {
-    color: #f4511e;
+    color: lightskyblue;
     font-size: 50px;
   }
   .logo {
-    color: #f4511e;
+    color: lightskyblue;
     font-size: 200px;
   }
   .thumbnail {
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
-    background-color: #f4511e;
+    background-color: rgba(0, 0, 0, 0.4);
+
   }
   .thumbnail img {
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
+
   }
   .carousel-control.right, .carousel-control.left {
     background-image: none;
@@ -113,9 +217,11 @@ body {
     background-color: #f4511e;
     color: #fff;
   }
+
+  /* NAVBAR */
   .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-image: linear-gradient(62deg, #000000 30%, #E0C3FC 90%);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -123,18 +229,21 @@ body {
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
+
   }
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: lightskyblue !important;
     background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
   }
+
+
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
