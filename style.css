@@ -21,6 +21,10 @@ body {
     margin-bottom: 10px;
   }
 
+#aboutcolor{
+color: lightskyblue;
+}
+
   h3 {
     font: 1000 44px customFont;
     font-size: 20px;
