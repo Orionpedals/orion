@@ -106,9 +106,9 @@ color: skyblue !important;
     background-image: linear-gradient(62deg, #000000 30%, #E0C3FC 90%);
   }
 
-#aboutImg{
-  width: 50% !important;
-}
+  #aboutImg{
+    width: 70% !important;
+  }
 
   #contact{
     
@@ -251,7 +251,7 @@ color: #777;
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
-    height: 100px;
+    
 
   }
   .navbar li a, .navbar .navbar-brand {
