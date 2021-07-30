@@ -1,78 +1,105 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Orion V3</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-  <title>Orion Pedals</title>
-  <meta name="description" content="demo site concept">
-  <meta name="author" content="SitePoint">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="style/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-	
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="custom.js"></script>
+
 </head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage"><img src="img/orion.png" alt=""></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
 
-  <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="portfolioFilter clearfix">
-            <a class="navbar-brand" href="index.html">
-              <img src="img/orion.png" width="150" height="75" alt="">
-            </a>
-            <a class="nav-fix" href="#" data-filter="">News</a>
-            <a class="nav-fix" href="index.html" data-filter="*" class="current">Products</a>
-            <a class="nav-fix" href="#" data-filter="">About</a>
-            <a class="nav-fix" href="#" data-filter="">Contact</a>
-          </div>
+        <ul class="nav navbar-nav navbar-right">  
+          <li><a href="#products">PRODUCTS</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- JUMBO -->
+  <div class="jumbotron text-center">
+    <div class="card">
+  <h1>Green ringer</h1> 
+  <h3 style="color:white; font-size: 28px;">Ringmodulator</h3> 
+  </div>
+    
+  </div>
+
+  <!-- PRODUCTS -->
+
+  <!-- ABOUT -->
+  <div id="about" class="container-fluid text-center">
+    <h2>Green Ringer</h2><br>
+    <div class="row">
+      <div class="col-sm-8">
+        
+        <br>
+        <br>
+        <br>
+      
+        <h4>This is a ring modulation type effect. <br>A ringmodulater doesn't sound like anything else, but It has it's moments, <br> For example Hendrix used it on parts on purple haze and all along the watchtower <br> It sounds like a octave pedal when soloing and like a robot with chords.</h4>
+        <h4>This is my take on the classic circuit with added diode switching for 2 diffrent sounds:<br><br> -Germanium offers more vintage type sound <br>-Silicon for a more modern sound</h4>
+        <br>
+        <br>
+        
+
+        <br>
+        <button class="btn btn-default btn-lg">ORDER</button>
+        <br><br><br><br>
+        <h4>NOTE! Pedal only works with 9v center positive power supply,<br> no batteri option availble at this time.</h4>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+
+
+      <div class="col-sm-4">
+        <br><br>
+        <img src="img/greenringer.jpg" alt="Paris" id="productImg">
+        <br><br>
       </div>
     </div>
   </div>
 
-<br><br>
-   <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron" style="background: url(img/workbench.jpg) no-repeat ; object-fit: contain;">
-          <div class="container">
-            <h1 class="display-3">Bc108 Silicon Fuzz</h1>
-            <p>Fuzz and Strat, There's nothing quite like it.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-          </div>
-        </div>
+  
 
-        <div class="container">
-          <!-- Example row of columns -->
-          <div class="row">
-            <div class="col-md-4">
-              <h2>Handwired</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-              <h2>Vintage spec</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-              <h2>All tested by me</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div>
-          </div>
+  
 
-          <hr>
+ 
 
-        </div> <!-- /container -->
+  <footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Copywright 2022 <a href="https://www.w3schools.com" title="Visit w3schools"> OrionPedals.io</a></p>
+  </footer>
 
-    <div class="footer">Handwired pedals built with coffee, care & love &#9749 &#128151 &#129304</p></div>
-
-	</div>
-  <script src="js/custom.js"></script>
-</body>
+  </body>
 </html>
