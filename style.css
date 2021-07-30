@@ -22,7 +22,7 @@ body {
   }
 
 #aboutcolor{
-color: lightskyblue;
+color: lightskyblue !important;
 }
 
   h3 {
