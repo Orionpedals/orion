@@ -251,8 +251,6 @@ color: #777;
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
-    
-
   }
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
@@ -261,8 +259,6 @@ color: #777;
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: lightskyblue !important;
     background-color: #fff !important;
-
-
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
