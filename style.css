@@ -320,4 +320,7 @@ color: #777;
     .logo {
       font-size: 150px;
     }
+    .navbar-brand{
+       size: 25%;
+    }
   }
