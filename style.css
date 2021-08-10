@@ -321,17 +321,18 @@ color: #777;
 
   
 
-/*
+
   .navbar-brand
 {
-    position: relative;
-    background: url(img/orion.png);
-    object-fit: contain;
-    
-    
-    size: 20%;
+    position: absolute;
+    z-index: 1;
+  // Use your own values for anything below this line.
+    left: 20px;
+    top: 20px;
+    height: 50px;
+    width: 200px;
 }
-*/
+
 
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
