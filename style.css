@@ -15,8 +15,12 @@ body {
 
   a {
     color: skyblue !important;
+
   }
 
+  a:hover {
+    cursor:pointer;
+    }
 
   h2 {
     font: 1000 44px  customFont;
@@ -32,7 +36,7 @@ color: skyblue !important;
 }
 
   h3 {
-    font: 1000 44px customFont;
+    font: 1000 58px customFont;
     font-size: 20px;
     line-height: 1.375em;
     color: aliceblue;
@@ -41,6 +45,7 @@ color: skyblue !important;
 
     padding-left: 20px;
     padding-right: 20px;
+    color: white;
   }
 
   h4 {
@@ -154,6 +159,19 @@ color: #777;
   padding: 25px;
 }
 
+.card4 {
+    font: 1000 44px  customFont;
+  background:rgba(0, 0, 0, 0.5);
+
+  color: skyblue;
+  border-radius: 2px;
+  display: inline-table;
+  
+  margin: 1rem;
+  position: relative;
+  padding: 25px;
+}
+
 
 
   .jumbotron {
@@ -175,6 +193,31 @@ color: #777;
     background-size: cover;
 
   }
+
+
+
+  .jumbotron2 {
+    /*
+    background-image: linear-gradient(62deg, #000000 30%, #E0C3FC 90%);
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    */
+    background-color: black;
+    color: lightskyblue;
+    padding: 200px 25px;
+    font-family: Montserrat, sans-serif;
+
+    background-image: url("img/muffmod.JPG");
+    height: 800px; /* You must set a specified height */
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+  }
+
+  .jumbotron2:hover { background-image: url("img/jfet.jpg"); }
+
   .container-fluid {
     padding: 60px 50px;
   }
